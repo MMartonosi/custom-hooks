@@ -13,7 +13,7 @@ def main(argv=None):
 
     print("---------------------")
     print("new print")
-    # print(os.path.dirname(os.path.abspath(__file__)))
+    print(os.path.dirname(os.path.abspath(__file__)))
     retval = 0
 
     retval = 1
