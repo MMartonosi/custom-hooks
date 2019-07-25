@@ -3,7 +3,7 @@ from typing import Optional
 from typing import Sequence
 
 
-def main(argv=None):  # type: (Optional[Sequence[str]]) -> int
+def main(argv=None):
     print("Error in commit. Returning 1!")
     parser = argparse.ArgumentParser()
     args = parser.parse_args(argv)
@@ -11,7 +11,7 @@ def main(argv=None):  # type: (Optional[Sequence[str]]) -> int
     # retval = 0
     # 
     # retval = 1
-    return retval
+    # return retval
 
 
 if __name__ == '__main__':
