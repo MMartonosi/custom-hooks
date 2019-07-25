@@ -8,8 +8,8 @@ from typing import Sequence
 
 def main(argv=None):
     print("Error in commit. Returning 1!")
-    parser = argparse.ArgumentParser()
-    args = parser.parse_args(argv)
+    # parser = argparse.ArgumentParser()
+    # args = parser.parse_args(argv)
 
     print("---------------------")
     print("new print")
