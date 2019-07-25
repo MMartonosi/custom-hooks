@@ -14,7 +14,8 @@ def main(argv=None):
     print("new print")
     print(os.path.dirname(os.path.abspath(__file__)))
     print("working direcory>>", os.getcwd())
-    with open(".gitignore") as f:
+    git_config_file = os.path.join(os.getcwd(), ".git", "config")
+    with open(git_config_file) as f:
         data = f.read()
         import pdb
         pdb.set_trace()
