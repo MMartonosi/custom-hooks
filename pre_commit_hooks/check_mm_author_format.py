@@ -11,7 +11,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser()
     args = parser.parse_args(argv)
 
-
+    print("---------------------")
+    print("new print")
     print(os.path.dirname(os.path.abspath(__file__)))
     retval = 0
 
