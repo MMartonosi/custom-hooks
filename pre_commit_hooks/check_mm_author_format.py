@@ -17,8 +17,7 @@ def main(argv=None):
     git_config_file = os.path.join(os.getcwd(), ".git", "config")
     with open(git_config_file) as f:
         data = f.read()
-        import pdb
-        pdb.set_trace()
+        print(data)
     retval = 0
 
     retval = 1
