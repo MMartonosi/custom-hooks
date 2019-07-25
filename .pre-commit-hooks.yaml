@@ -1,0 +1,5 @@
+-   id: check-mm-author-format
+    name: Check for mediamonks mail domain
+    description: Checks if commit author mail has 'mediamonks' domain.
+    entry: check-mm-author-format
+    language: python
