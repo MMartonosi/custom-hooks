@@ -1,3 +1,6 @@
+
+import sys
+import os
 import argparse
 from typing import Optional
 from typing import Sequence
@@ -8,10 +11,12 @@ def main(argv=None):
     parser = argparse.ArgumentParser()
     args = parser.parse_args(argv)
 
-    # retval = 0
-    # 
-    # retval = 1
-    # return retval
+
+    print(os.path.dirname(os.path.abspath(__file__)))
+    retval = 0
+
+    retval = 1
+    return retval
 
 
 if __name__ == '__main__':
