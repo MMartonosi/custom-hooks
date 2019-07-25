@@ -9,7 +9,7 @@ def main(argv=None):  # type: (Optional[Sequence[str]]) -> int
 
     retval = 0
     print("Error in commit. Returning 1!")
-    retval = 1
+    # retval = 1
     return retval
 
 
