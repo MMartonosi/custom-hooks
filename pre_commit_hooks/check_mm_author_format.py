@@ -3,9 +3,6 @@ import os
 
 def main(argv=None):
     retval = 0
-    print("working direcory>>", os.getcwd())  # from this
-    print(os.path.dirname(os.path.abspath(__file__)))  # change to this
-
     git_config_file = os.path.join(os.getcwd(), ".git", "config")
     with open(git_config_file) as f:
         data = f.read()
